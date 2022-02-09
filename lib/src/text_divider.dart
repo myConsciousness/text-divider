@@ -5,7 +5,16 @@
 import 'package:text_divider/src/direction.dart';
 import 'package:flutter/material.dart';
 
+/// This class is a widget that provides the ability to display arbitrary text in the center of the divider.
+///
+/// It is possible to specify the direction of the Divider with the argument of the default constructor,
+/// but a simpler way is to use the [horizontal] constructor. However, keep in mind that you cannot specify `const`
+/// in the caller of the `TextDivider` if you use this [horizontal] constructor.
+///
+/// Also you can use the [vertical] constructor for vertical direction. However, keep in mind that you cannot specify
+/// `const` in the caller of the `TextDivider` if you use this [vertical] constructor.
 class TextDivider extends StatelessWidget {
+  /// Returns the new instance of [TextDivider] based on arguments.
   const TextDivider({
     Key? key,
     required this.text,
@@ -87,9 +96,9 @@ class TextDivider extends StatelessWidget {
         return Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            divider,
+            _divider,
             text,
-            divider,
+            _divider,
           ],
         );
       case Direction.vertical:
@@ -97,16 +106,17 @@ class TextDivider extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              divider,
+              _divider,
               text,
-              divider,
+              _divider,
             ],
           ),
         );
     }
   }
 
-  Widget get divider {
+  /// Returns the divider based on [direction].
+  Widget get _divider {
     switch (direction) {
       case Direction.horizontal:
         return Expanded(
