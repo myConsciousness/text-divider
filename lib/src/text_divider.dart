@@ -6,7 +6,7 @@ import 'package:text_divider/src/direction.dart';
 import 'package:flutter/material.dart';
 
 class TextDivider extends StatelessWidget {
-  const TextDivider._internal({
+  const TextDivider({
     Key? key,
     required this.text,
     this.direction = Direction.horizontal,
@@ -27,7 +27,7 @@ class TextDivider extends StatelessWidget {
     double? endIndent,
     Color? color,
   }) =>
-      TextDivider._internal(
+      TextDivider(
         key: key,
         text: text,
         direction: Direction.horizontal,
@@ -48,7 +48,7 @@ class TextDivider extends StatelessWidget {
     double? endIndent,
     Color? color,
   }) =>
-      TextDivider._internal(
+      TextDivider(
         key: key,
         text: text,
         direction: Direction.vertical,
