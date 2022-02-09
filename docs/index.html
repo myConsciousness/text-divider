@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <base href="/" />
+    <base href="/text-divider/" />
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <title>test_text_divider</title>
-    <link rel="manifest" href="text-divider/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
   </head>
   <body>
     <!-- This script installs service_worker.js to provide PWA functionality to
@@ -45,7 +45,7 @@
         }
         scriptLoaded = true;
         var scriptTag = document.createElement("script");
-        scriptTag.src = "text-divider/main.dart.js";
+        scriptTag.src = "main.dart.js";
         scriptTag.type = "application/javascript";
         document.body.append(scriptTag);
       }
@@ -57,7 +57,7 @@
           // Otherwise, the browser will load the script multiple times,
           // potentially different versions.
           var serviceWorkerUrl =
-            "text-divider/flutter_service_worker.js?v=" + serviceWorkerVersion;
+            "flutter_service_worker.js?v=" + serviceWorkerVersion;
           navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {
             function waitForActivation(serviceWorker) {
               serviceWorker.addEventListener("statechange", () => {
