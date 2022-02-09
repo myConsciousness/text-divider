@@ -8,7 +8,7 @@
     - [1.1.2. Import It](#112-import-it)
     - [1.1.3. Use TextDivider](#113-use-textdivider)
   - [1.2. Details](#12-details)
-    - [1.2.1. Customize Options](#121-customize-options)
+    - [1.2.1. Customization Options](#121-customization-options)
     - [1.2.2. Horizontal Constructor](#122-horizontal-constructor)
     - [1.2.3. Vertical Constructor](#123-vertical-constructor)
   - [1.3. License](#13-license)
@@ -82,7 +82,7 @@ class ExampleTextDivider extends StatelessWidget {
 
 ## 1.2. Details
 
-### 1.2.1. Customize Options
+### 1.2.1. Customization Options
 
 | Name      | Type      | Required | Initial Value                                    | Remarks                                                                                                                                                |
 | --------- | --------- | :------: | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
