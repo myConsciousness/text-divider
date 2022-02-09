@@ -1,6 +1,6 @@
 name: text_divider
 description: This library provides a customizable Flutter widget that makes it easy to display text in the middle of a Divider.
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/myConsciousness/divider-with-text
 
 environment:
