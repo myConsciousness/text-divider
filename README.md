@@ -1,6 +1,4 @@
 [![pub package](https://img.shields.io/pub/v/divider_with_text.svg)](https://pub.dev/packages/divider_with_text)
-[![Analyzer](https://github.com/myConsciousness/divider_with_text/actions/workflows/analyzer.yml/badge.svg)](https://github.com/myConsciousness/divider_with_text/actions/workflows/analyzer.yml)
-[![Test](https://github.com/myConsciousness/divider_with_text/actions/workflows/test.yml/badge.svg)](https://github.com/myConsciousness/divider_with_text/actions/workflows/test.yml)
 
 <!-- TOC -->
 
