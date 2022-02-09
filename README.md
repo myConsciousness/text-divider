@@ -115,7 +115,7 @@ BSD-style license that can be found in the LICENSE file.
 `TextDivider` was designed and implemented by **_Kato Shinya_**.
 
 - [Creator Profile](https://github.com/myConsciousness)
-- [License](https://github.com/myConsciousness/text_divider/blob/main/LICENSE)
+- [License](https://github.com/myConsciousness/text-divider/blob/main/LICENSE)
 - [API Document](https://pub.dev/documentation/text_divider/latest/text_divider/text_divider-library.html)
-- [Release Note](https://github.com/myConsciousness/text_divider/releases)
-- [Bug Report](https://github.com/myConsciousness/text_divider/issues)
+- [Release Note](https://github.com/myConsciousness/text-divider/releases)
+- [Bug Report](https://github.com/myConsciousness/text-divider/issues)
