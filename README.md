@@ -16,6 +16,14 @@
 
 `DividerWithText` provides a customizable Flutter widget that makes it easy to display text in the middle of a Divider.
 
+Using `DividerWithText`, you can easily display the following objects that you often see in websites and mobile apps. In addition, `DividerWithText` has flexible customization options that allow you to change the style to suit your taste.
+
+- **_Wellknown text divider_**
+
+<img width="443" alt="スクリーンショット 2022-02-08 18 00 39" src="https://user-images.githubusercontent.com/13072231/153102245-66f0e1eb-f690-4e64-ba56-c96e9c9edcf8.png">
+
+Also `DividerWithText` supports vertical as well as horizontal direction.
+
 ## 1.1. Introduction
 
 ### 1.1.1. Install Library
@@ -54,7 +62,9 @@ class ExampleDividerWithText extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                // Outputs a horizontal Divider with the text placed in the center.
                 DividerWithText.horizontal(text: const Text('Horizontal Test')),
+                // Outputs a vertical Divider with the text placed in the center.
                 DividerWithText.vertical(text: const Text('Vertical Test')),
               ],
             ),
