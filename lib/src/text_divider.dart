@@ -2,11 +2,11 @@
 // Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:divider_with_text/src/direction.dart';
+import 'package:text_divider/src/direction.dart';
 import 'package:flutter/material.dart';
 
-class DividerWithText extends StatelessWidget {
-  const DividerWithText._internal({
+class TextDivider extends StatelessWidget {
+  const TextDivider._internal({
     Key? key,
     required this.text,
     this.direction = Direction.horizontal,
@@ -17,8 +17,8 @@ class DividerWithText extends StatelessWidget {
     this.color,
   }) : super(key: key);
 
-  /// Returns the new instance of [DividerWithText] in horizontal direction.
-  static DividerWithText horizontal({
+  /// Returns the new instance of [TextDivider] in horizontal direction.
+  static TextDivider horizontal({
     Key? key,
     required Text text,
     double? size,
@@ -27,7 +27,7 @@ class DividerWithText extends StatelessWidget {
     double? endIndent,
     Color? color,
   }) =>
-      DividerWithText._internal(
+      TextDivider._internal(
         key: key,
         text: text,
         direction: Direction.horizontal,
@@ -38,8 +38,8 @@ class DividerWithText extends StatelessWidget {
         color: color,
       );
 
-  /// Returns the new instance of [DividerWithText] in vertical direction.
-  static DividerWithText vertical({
+  /// Returns the new instance of [TextDivider] in vertical direction.
+  static TextDivider vertical({
     Key? key,
     required Text text,
     double? size,
@@ -48,7 +48,7 @@ class DividerWithText extends StatelessWidget {
     double? endIndent,
     Color? color,
   }) =>
-      DividerWithText._internal(
+      TextDivider._internal(
         key: key,
         text: text,
         direction: Direction.vertical,

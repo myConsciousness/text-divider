@@ -2,7 +2,7 @@
 // Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:divider_with_text/divider_with_text.dart';
+import 'package:text_divider/text_divider.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          title: const Text('Test DividerWithText'),
+          title: const Text('Test TextDivider'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(20),
@@ -30,27 +30,27 @@ class MyHomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                DividerWithText.horizontal(
+                TextDivider.horizontal(
                   text: const Text('Horizontal Test'),
                   color: Colors.black45,
                   thickness: 3.0,
                 ),
-                DividerWithText.vertical(
+                TextDivider.vertical(
                   text: const Text('Vertical Test'),
                   color: Colors.black45,
                   thickness: 3.0,
                 ),
-                DividerWithText.horizontal(
+                TextDivider.horizontal(
                   text: const Text('Horizontal Test'),
                   color: Colors.black45,
                   thickness: 3.0,
                 ),
-                DividerWithText.vertical(
+                TextDivider.vertical(
                   text: const Text('Vertical Test'),
                   color: Colors.black45,
                   thickness: 3.0,
                 ),
-                DividerWithText.horizontal(
+                TextDivider.horizontal(
                   text: const Text('Horizontal Test'),
                   color: Colors.black45,
                   thickness: 3.0,

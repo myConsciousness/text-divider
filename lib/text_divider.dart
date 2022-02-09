@@ -2,5 +2,5 @@
 // Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-export 'package:divider_with_text/src/divider_with_text.dart';
-export 'package:divider_with_text/src/direction.dart';
+export 'package:text_divider/src/text_divider.dart';
+export 'package:text_divider/src/direction.dart';
